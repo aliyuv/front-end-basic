@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html,body{
+            /*width: 1000px;*/
+            /*height: 1000px;*/
+            /*border: 1px dotted black;*/
+            /*margin: 0 auto;*/
+            /*position: relative;*/
+
+
+        }
+        .box{
+            /*width: 1000px;*/
+            /*height: 600px;*/
+            /*border: 2px solid lightblue;*/
+            /*padding: 2px;*/
+            /*text-align: center;*/
+            /*line-height: 400px;*/
+            /*!*position: relative;*!*/
+            /*margin: auto;*/
+            /*!*position: absolute;*!*/
+            /*!*left: 50%;*!*/
+            /*!*top: 50%;*!*/
+            /*!*transform: translate(-50%, -50%);*!*/
+            /*display: flex;*/
+
+            /*justify-content: center;*/
+            /*align-content: center;*/
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center;     /* 垂直居中 */
+            width: 1000px;
+            height: 600px;
+            border: 1px solid red;
+
+        }
+        .box>div{
+            /*width: 200px;*/
+            /*height: 200px;*/
+            /*!*display: flex;*!*/
+            /*!*justify-content: center;*!*/
+            /*!*align-content: center;*!*/
+            /*text-align: center;*/
+            /*line-height: 200px;*/
+            /*border: 1px solid lightcoral;*/
+            /*!*position: absolute;*!*/
+            /*!*left: 50%;*!*/
+            /*!*top: 50%;*!*/
+            /*!*transform: translate(-50%, -50%);*!*/
+
+            width: 300px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+ <div class="box" id="app">
+     <div>hello world</div>
+ </div>
+ <script type="text/html">
+     // const html = document.documentElement
+     // const elm = html.getBoundingClientRect()
+     // console.log(elm);
+     // const winW = elm.width
+     // const winH = elm.height
+     // console.log(winH);
+     // const elmW= app.getBoundingClientRect().width
+     // const elmH= app.getBoundingClientRect().height
+     // app.style.position = "absolute"
+     // app.style.top = (document.documentElement.clientHeight - elmH) / 2 + 'px'
+     // app.style.left = (winW - elmW) / 2 + 'px'
+ </script>
+</body>
+</html>
